@@ -1,0 +1,17 @@
+# Fichiers d'environnement et secrets (INTERDITS dans Git)
+.env
+.env.local
+.env.*.local
+# Dépendances et environnements virtuels
+/backend/vendor/
+/frontend/node_modules/
+/etl/.venv/
+__pycache__/
+*.pyc
+# Fichiers analytiques locaux et caches
+*.duckdb
+*.duckdb.wal
+*.ducklake
+*.ducklake.files/
+.DS_Store
+.vscode/
